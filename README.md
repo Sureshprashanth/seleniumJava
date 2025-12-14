@@ -25,6 +25,7 @@ Maven
 Git
 
 📁 **Project Structure**
+
 seleniumJava
 │
 ├── src
