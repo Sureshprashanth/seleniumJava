@@ -1,140 +1,86 @@
-**Selenium Java Automation Framework**
-📌** Overview**
+# Selenium Java Automation Framework
 
-This repository contains a Selenium WebDriver automation framework built using Java.
-It demonstrates a structured, maintainable approach to UI test automation, following industry-standard best practices such as reusable utilities, clean test separation, and scalable design.
+A robust and scalable **UI Test Automation Framework** built using **Java**, **Selenium WebDriver**, **TestNG**, and **Maven**.  
+This project demonstrates best practices for building maintainable automation frameworks using the **Page Object Model (POM)** and reusable utilities.
 
-This project is intended to serve as:
+---
 
-a reference Selenium automation framework
+## 🚀 Overview
 
-a base framework that can be extended for real-world applications
+This repository contains a Selenium-based automation framework designed for enterprise web applications.  
+It focuses on stability, reusability, and easy CI/CD integration, making it suitable for real-world testing needs.
 
-a demonstration of hands-on automation engineering skills
+The framework is structured to:
+- Reduce code duplication
+- Improve test maintainability
+- Support scalable automation development
 
-🛠** Tech Stack**
+---
 
-Java
+## 🛠 Tech Stack
 
-Selenium WebDriver
+- **Java**
+- **Selenium WebDriver**
+- **TestNG**
+- **Maven**
+- **Git**
+- **Jenkins / CI-friendly**
 
-TestNG
+---
 
-Maven
-
-Git
-
-📁 **Project Structure**
+## 📁 Project Structure
 
 seleniumJava
-│
 ├── src
-│   ├── main
-│   │   └── java
-│   │       ├── base        # Base test setup & driver initialization
-│   │       ├── pages       # Page Object Model (POM) classes
-│   │       └── utils       # Reusable utilities (waits, helpers, configs)
-│   │
-│   └── test
-│       └── java
-│           └── tests       # TestNG test classes
-│
+│ ├── main
+│ │ └── java
+│ │ ├── pages # Page Object Model classes
+│ │ ├── utils # Driver, waits, helpers
+│ │ └── config # Configuration handling
+│ └── test
+│ └── java
+│ ├── tests # TestNG test classes
+│ └── base # Base test setup
 ├── pom.xml
-└── README.md
 
-🚀 **Key Features**
+yaml
+Copy code
 
-Selenium WebDriver automation using Java
+---
 
-Page Object Model (POM) design for better maintainability
+## ✨ Key Features
 
-Test execution using TestNG
+- Page Object Model (POM) design pattern
+- Reusable WebDriver and wait utilities
+- Clean separation of test logic and UI locators
+- TestNG-based execution and reporting
+- Easily extendable for data-driven testing
+- Ready for CI/CD execution
 
-Maven-based dependency management
+---
 
-Reusable base classes and utilities
+## ▶️ How to Run
 
-Clean separation between test logic and page interactions
+### Prerequisites
+- Java 8+
+- Maven installed
 
-▶️ **How to Run the Tests**
-**Prerequisites**
-
-Java 8 or above
-
-Maven installed
-
-Chrome / compatible browser
-
-IDE (IntelliJ / Eclipse recommended)
-
-Steps
-
-Clone the repository
-
+### Steps
+```bash
 git clone https://github.com/Sureshprashanth/seleniumJava.git
-
-
-Navigate to the project directory
-
 cd seleniumJava
-
-
-Run tests using Maven
-
 mvn clean test
+📌 Highlights
+Designed for real-world UI automation scenarios
 
-🧠 **Design Principles Used**
+Framework structure aligned with industry best practices
 
-Reusability and modularity
+Easy onboarding for new automation engineers
 
-Separation of concerns
+Suitable for continuous testing pipelines
 
-Maintainable locator strategy
-
-Scalable test structure
-
-Clear naming conventions
-
-🎯 **Purpose of This Project**
-
-This project reflects:
-
-hands-on experience in Selenium automation
-
-understanding of automation framework design
-
-ability to structure automation code professionally
-
-readiness to scale automation for real applications
-
-**It is suitable for:**
-
-automation framework learning
-
-interview demonstration
-
-portfolio/reference use
-
-👤 **Maintained By**
-
+👤 Maintainer
 Suresh Prashanth
-SDET Lead | Automation Engineer | QA Mentor
-
+SDET Lead | Automation Architect | QA Mentor
 GitHub: https://github.com/Sureshprashanth
-
 LinkedIn: https://www.linkedin.com/in/suresh-prashanth-11a617168
-
-Email: sureshraviprashanth@gmail.com
-
-📌 **Notes**
-
-This framework can be extended to include:
-
-data-driven testing
-
-cross-browser execution
-
-reporting tools (Allure / Extent)
-
-CI/CD integration (Jenkins / GitHub Actions)
-
