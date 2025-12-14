@@ -1,5 +1,5 @@
-Selenium Java Automation Framework
-📌 Overview
+**Selenium Java Automation Framework**
+📌** Overview**
 
 This repository contains a Selenium WebDriver automation framework built using Java.
 It demonstrates a structured, maintainable approach to UI test automation, following industry-standard best practices such as reusable utilities, clean test separation, and scalable design.
@@ -12,7 +12,7 @@ a base framework that can be extended for real-world applications
 
 a demonstration of hands-on automation engineering skills
 
-🛠 Tech Stack
+🛠** Tech Stack**
 
 Java
 
@@ -24,7 +24,7 @@ Maven
 
 Git
 
-📁 Project Structure
+📁 **Project Structure**
 seleniumJava
 │
 ├── src
@@ -41,7 +41,7 @@ seleniumJava
 ├── pom.xml
 └── README.md
 
-🚀 Key Features
+🚀 **Key Features**
 
 Selenium WebDriver automation using Java
 
@@ -55,8 +55,8 @@ Reusable base classes and utilities
 
 Clean separation between test logic and page interactions
 
-▶️ How to Run the Tests
-Prerequisites
+▶️ **How to Run the Tests**
+**Prerequisites**
 
 Java 8 or above
 
@@ -82,7 +82,7 @@ Run tests using Maven
 
 mvn clean test
 
-🧠 Design Principles Used
+🧠 **Design Principles Used**
 
 Reusability and modularity
 
@@ -94,7 +94,7 @@ Scalable test structure
 
 Clear naming conventions
 
-🎯 Purpose of This Project
+🎯 **Purpose of This Project**
 
 This project reflects:
 
@@ -106,7 +106,7 @@ ability to structure automation code professionally
 
 readiness to scale automation for real applications
 
-It is suitable for:
+**It is suitable for:**
 
 automation framework learning
 
@@ -114,7 +114,7 @@ interview demonstration
 
 portfolio/reference use
 
-👤 Maintained By
+👤 **Maintained By**
 
 Suresh Prashanth
 SDET Lead | Automation Engineer | QA Mentor
@@ -125,7 +125,7 @@ LinkedIn: https://www.linkedin.com/in/suresh-prashanth-11a617168
 
 Email: sureshraviprashanth@gmail.com
 
-📌 Notes
+📌 **Notes**
 
 This framework can be extended to include:
 
@@ -137,14 +137,3 @@ reporting tools (Allure / Extent)
 
 CI/CD integration (Jenkins / GitHub Actions)
 
-✅ Why this README is GOOD for Global Talent Visa
-
-Honest (no fake claims)
-
-Shows technical competence
-
-Demonstrates framework thinking
-
-Easy to verify
-
-Clean, professional, reviewer-friendly
